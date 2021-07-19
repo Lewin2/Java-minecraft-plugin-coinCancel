@@ -26,7 +26,7 @@ public class CancelEvent implements Listener {
     private boolean isGold(ItemStack item){
         if (item.getType() == Material.RED_DYE){
             if (item.getItemMeta().hasCustomModelData()){
-                if (item.getItemMeta().getCustomModelData() == 1003){
+                if (item.getItemMeta().getCustomModelData() == 1000){
                     return true;
                 }
             }
@@ -36,7 +36,7 @@ public class CancelEvent implements Listener {
     private boolean isSilver(ItemStack item){
         if (item.getType() == Material.BLUE_DYE){
             if (item.getItemMeta().hasCustomModelData()){
-                if (item.getItemMeta().getCustomModelData() == 1003){
+                if (item.getItemMeta().getCustomModelData() == 1000){
                     return true;
                 }
             }
@@ -46,7 +46,7 @@ public class CancelEvent implements Listener {
     private boolean isCopper(ItemStack item){
         if (item.getType() == Material.GREEN_DYE){
             if (item.getItemMeta().hasCustomModelData()){
-                if (item.getItemMeta().getCustomModelData() == 1003){
+                if (item.getItemMeta().getCustomModelData() == 1000){
                     return true;
                 }
             }
