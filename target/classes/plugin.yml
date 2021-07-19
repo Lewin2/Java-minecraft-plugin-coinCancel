@@ -1,0 +1,4 @@
+name: DellunaCoin
+version: 1.0-SNAPSHOT
+main: me.lewin.dellunacoin.Main
+api-version: 1.17
